@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.middleware:metrics-core-api:1.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/alibaba/middleware/metrics-core-api/1.7.7/metrics-core-api-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/alibaba/middleware/metrics-core-api/1.7.7/metrics-core-api-1.7.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/alibaba/middleware/metrics-core-api/1.7.7/metrics-core-api-1.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

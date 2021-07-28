@@ -1,0 +1,81 @@
+{
+  "deliveryCoverageId": "4080",
+  "deliveryShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+  "deliveryTenantId": "LAZADA_ID",
+  "expectArriveTime": 1627725600000,
+  "features": {
+    "COMPONENT_RESULT_SPS": "null",
+    "INIT_OVERWRITE": "[]",
+    "FM_SC": "LAZADA_STANDARD_ID",
+    "PLAN_LEAD_TIME": "216000",
+    "DEFAULT_STEPS": "null",
+    "COMPONENT_RESULT_COUNT": "null"
+  },
+  "leadTime": 216000,
+  "nodeDTOs": [
+    {
+      "nodePlanDTO": {
+        "inboundCutoffTime": 1627509600000,
+        "outboundTime": 1627516800000,
+        "waveCode": "WAVE_95052"
+      },
+      "nodeResourceDTO": {
+        "fromCode": "4372",
+        "linkId": "36967",
+        "logisticRole": "PICKUP",
+        "nodeUniqueKey": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#HUB_100287#1002#36967",
+        "nodeUniqueKeyV1": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#HUB_100287#1002#null#HUB_100287",
+        "resCode": "HUB_100287",
+        "resType": 1002,
+        "shippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+        "tenantId": "LAZADA_ID",
+        "toCode": "HUB_100287"
+      }
+    },
+    {
+      "nodePlanDTO": {
+        "inboundCutoffTime": 1627516800000,
+        "outboundTime": 1627689600000,
+        "waveCode": "WAVE_36121"
+      },
+      "nodeResourceDTO": {
+        "fromCode": "HUB_100287",
+        "linkId": "85288",
+        "logisticRole": "TRANSPORT",
+        "nodeUniqueKey": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#TRANSPORT_10000023#1005#85288",
+        "nodeUniqueKeyV1": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#TRANSPORT_10000023#1005#HUB_100287#HUB_100082",
+        "resCode": "TRANSPORT_10000023",
+        "resType": 1005,
+        "shippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+        "tenantId": "LAZADA_ID",
+        "toCode": "HUB_100082"
+      }
+    },
+    {
+      "nodePlanDTO": {
+        "inboundCutoffTime": 1627689600000,
+        "outboundTime": 1627725600000,
+        "waveCode": "WAVE_94040"
+      },
+      "nodeResourceDTO": {
+        "fromCode": "HUB_100082",
+        "linkId": "36675",
+        "logisticRole": "DELIVERY",
+        "nodeUniqueKey": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#HUB_100082#1002#36675",
+        "nodeUniqueKeyV1": "4cfdfb11-4467-482c-b7a3-bb51efd243ac#HUB_100082#1002#HUB_100082#null",
+        "resCode": "HUB_100082",
+        "resType": 1002,
+        "shippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+        "tenantId": "LAZADA_ID",
+        "toCode": "4080"
+      }
+    }
+  ],
+  "pickupCoverageId": "4372",
+  "pickupShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+  "pickupTargetCutoffTime": 1627509600000,
+  "pickupTenantId": "LAZADA_ID",
+  "pickupType": "Pickup",
+  "planId": "236fc7e7ca7f87bb2e94ca7f238dfd19#-100#0",
+  "planType": 1
+}

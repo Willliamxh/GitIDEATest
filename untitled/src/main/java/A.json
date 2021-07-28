@@ -1,0 +1,79 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "currency": "IDR",
+    "customerOrderCreationTime": "2021-07-23T16:09:27+08:00",
+    "deliveryOption": "standard",
+    "destinationAddress": {
+      "address": "Curug Kel. jln pekapuran mie aceh depan alfamidi Pekapuran2, Jawa Barat, Kota Depok, Cimanggis",
+      "addressId": "R80016066",
+      "details": "Curug Kel. jln pekapuran mie aceh depan alfamidi Pekapuran2",
+      "email": "testdest@gmail.com",
+      "geocodingDTO": {
+        "latitude": -6.392434D,
+        "longitude": 106.873625D
+      },
+      "name": "testdest",
+      "phone": "123412341234",
+      "type": "home"
+    },
+    "directReturnToMerchant": false,
+    "fulfillmentCompletionTime": "2021-07-23T16:09:27+08:00",
+    "itemList": [
+      {
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 10.0D,
+        "itemCategory": "10100794",
+        "length": 10.0D,
+        "name": "testforboji-Normalseller-update",
+        "paidPrice": 13610.0D,
+        "platformItemId": "FO123412341234",
+        "quantity": 1,
+        "sellerId": "100221054",
+        "sellerShortCode": "ID16BHK",
+        "sku": "1005292839_ID-1504716533",
+        "unitPrice": 7510.0D,
+        "voucher": 0.0D,
+        "weight": 20.0D,
+        "width": 10.0D
+      }
+    ],
+    "logisticCategories": [
+      "Liquid"
+    ],
+    "originAddress": {
+      "address": "Jl. Pakis Rt.04/09 No.42 Kel. Rangkapan jaya Baru,Jawa Barat,Kota Depok,Pancoran Mas",
+      "addressId": "R80016064",
+      "details": "Jl. Pakis Rt.04/09 No.42 Kel. Rangkapan jaya Baru",
+      "email": "testorig@gmail.com",
+      "name": "testorig",
+      "phone": "123412341234"
+    },
+    "packagePlanDTO": {
+      "domesticFirstMile": {
+        "shippingProviderCode": "685eb0ff-22c8-48dc-a24d-9b44db249093"
+      },
+      "lastMile": {
+        "shippingProviderCode": "685eb0ff-22c8-48dc-a24d-9b44db249093",
+        "trackingNumber": "TEST1627027767441811"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "COD",
+    "platformName": "LAZADA_ID",
+    "platformOrderCreationTime": "2021-06-23T00:00:00+08:00",
+    "platformOrderId": "OF310729001420009",
+    "platformOrderNumber": "229758977098",
+    "platformPromiseMaxTime": "2021-07-23T16:09:27+08:00",
+    "platformPromiseMinTime": "2021-07-23T16:09:27+08:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "addressMd5": "84be1239-701c-049d-a55d-934aa7bdcce1",
+      "waybillRemark": "notification",
+      "testTag": "9"
+    },
+    "shippingType": "Marketplace",
+    "warehouseCode": "dropshipping"
+  }
+]

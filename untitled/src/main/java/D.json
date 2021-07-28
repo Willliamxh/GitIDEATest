@@ -1,0 +1,23 @@
+{
+  "data": {
+    "features": {
+      "COMPONENT_RESULT_SPS": "null",
+      "INIT_OVERWRITE": "[]",
+      "FM_SC": "LAZADA_STANDARD_ID",
+      "DEFAULT_STEPS": "[{\"defaultType\":\"DEFAULT\",\"scene\":\"NO_DELIVERY_3PL_LANES\",\"subScene\":[\"23d7661c-dc67-44af-a6e3-308405ba5113\"]}]",
+      "COMPONENT_RESULT_COUNT": "null"
+    },
+    "deliveryTenantId": "LAZADA_ID",
+    "planType": 0,
+    "deliveryShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
+    "pickupTenantId": "LAZADA_ID",
+    "planId": "DEFAULT_SHIPPING_PROVIDER_PLAN_ID#-1#1",
+    "pickupType": "Drop-off",
+    "class": "com.cainiao.global.lnp.lsr.api.route.response.RoutePlanResultDTO",
+    "pickupShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac"
+  },
+  "success": true,
+  "errorMessage": "CODE: null, MESSAGE: null",
+  "needRetry": false,
+  "class": "com.cainiao.global.lnp.lsr.api.common.ResultDTO"
+}

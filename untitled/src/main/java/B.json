@@ -1,0 +1,50 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.lsr.api.route.request.RoutePlanRequestDTO",
+    "features": {
+      "@type": "java.util.HashMap",
+      "crossCountry": "false",
+      "shippingType": "marketplace",
+      "isSellerCB": "false",
+      "platformPromiseMaxTime": "2021-07-28T04:57:00-07:00",
+      "platformPromiseMinTime": "2021-07-26T04:57:00-07:00",
+      "platformOrderCreationTime": "2021-07-22T14:29:27-07:00",
+      "customerOrderCreationTime": "2021-07-22T14:29:27-07:00",
+      "packageType": "Sales_order",
+      "fulfillmentType": "MP",
+      "paidPrice": "420.0",
+      "paymentType": "COD",
+      "originType": "Domestic",
+      "paidPriceCurrency": "THB",
+      "platformOrderId": "FO004611412051133"
+    },
+    "orderDTO": {
+      "fromAddressId": "R1470",
+      "fromDetailAddress": "63/6 หมู่ที่ 3 ถนนเทพารักษ์ ตำบลบสงพลีใหญ่ อำเภอบางพลี จังหวัดสมุทรปราการ 10540",
+      "fulfillmentScenario": "DOMESTIC#MARKETPLACE#CONSIGN",
+      "outBizCode": "US1636023036",
+      "routeStartTime": 1627043395000,
+      "sellerId": "1000035283",
+      "toAddressId": "R1827",
+      "toDetailAddress": "ซ.212  62/515 ซ.212",
+      "warehouseCode": "dropshipping"
+    },
+    "packageDTO": {
+      "currency": "THB",
+      "height": 8.0D,
+      "length": 25.0D,
+      "price": 390.0D,
+      "weight": 1100.0D,
+      "width": 13.0D
+    },
+    "routeOptionDTO": {
+      "businessTypes": [
+        "NORMAL"
+      ],
+      "deliveryOption": "standard",
+      "extraServices": [
+        "COD"
+      ]
+    }
+  }
+]

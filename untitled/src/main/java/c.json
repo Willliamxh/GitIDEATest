@@ -1,0 +1,82 @@
+//CB的MP
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "currency": "SGD",
+    "customerOrderCreationTime": "2021-07-19T06:38:04-07:00",
+    "deliveryOption": "economy",
+    "destinationAddress": {
+      "address": "Singapore, Singapore, 37H NIM ROAD",
+      "addressId": "R80033400",
+      "details": "",
+      "email": "LOHWEIKING@YAHOO.COM.SG",
+      "geocodingDTO": {
+        "latitude": 1.381409D,
+        "longitude": 103.864102D
+      },
+      "name": "Loh Wei King",
+      "phone": "91736044",
+      "type": "home"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "1023396030",
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 5.0D,
+        "itemCategory": "9094",
+        "length": 5.0D,
+        "name": "Push Pop Pop Bubble Sensory pop it fidget toy cheap Square shape Stress Relief Special Needs Silent Classroom fidget toys full set box all fidgets for tiktok",
+        "paidPrice": 2.64D,
+        "platformItemId": "FO019011184323004",
+        "properties": {
+          "@type": "java.util.HashMap",
+          "isSellerCB": "true",
+          "buyerId": "1023396030"
+        },
+        "quantity": 1,
+        "sellerId": "1141497927",
+        "sellerShortCode": "SGLRNV1H",
+        "sku": "1641973950_SGAMZ-7714181810",
+        "unitPrice": 2.8D,
+        "voucher": 0.16D,
+        "weight": 80.0D,
+        "width": 5.0D
+      }
+    ],
+    "originAddress": {
+      "address": "深圳市龙华区东环一路联合大厦305,China",
+      "addressId": "R270056",
+      "details": "深圳市龙华区东环一路联合大厦305",
+      "email": "shoujingji76@163.com",
+      "name": "Toy City Store",
+      "phone": "16533304324"
+    },
+    "packagePlanDTO": {
+      "lastMile": {
+        "shippingProviderCode": "0776c33f-ccb7-4421-9573-4af0c50fe0e3",
+        "trackingNumber": "LXBSG000012711521"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "MIXEDCARD",
+    "platformName": "LAZADA_SG",
+    "platformOrderCreationTime": "2021-07-19T06:38:08-07:00",
+    "platformOrderId": "FO019011050369374",
+    "platformOrderNumber": "56670447096030",
+    "platformPromiseMaxTime": "2021-08-05T08:59:00-07:00",
+    "platformPromiseMinTime": "2021-07-29T08:59:00-07:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "cbSortCode": "LGS-FM40",
+      "packageDeliveryPriority": "NORMAL",
+      "shippingFee": "0",
+      "addressMd5": "4584fab1-a8e3-acbc-7053-16a1948143fe",
+      "customerOrderCreationTime": "2021-07-19T06:38:04-07:00"
+    },
+    "shippingType": "Marketplace",
+    "warehouseCode": "dropshipping",
+
+  }
+]

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.diamond:diamond-client:3.8.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/taobao/diamond/diamond-client/3.8.18/diamond-client-3.8.18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/taobao/diamond/diamond-client/3.8.18/diamond-client-3.8.18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../environment/Maven/apache-maven-3.8.1-bin/apache-maven-3.8.1/maven-repo/com/taobao/diamond/diamond-client/3.8.18/diamond-client-3.8.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
