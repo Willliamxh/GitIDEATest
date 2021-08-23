@@ -1,0 +1,45 @@
+{
+  "features": {
+    "paidPriceCurrency": "LKR",
+    "originType": "Domestic",
+    "shippingType": "marketplace",
+    "platformOrderId": "OF1628076717097",
+    "packageType": "Sales_order",
+    "fulfillmentType": "MP",
+    "paymentType": "COD",
+    "paidPrice": "500.0"
+  },
+  "orderDTO": {
+    "fromAddressId": "R80317457",
+    "fromDetailAddress": "Sri Lanka",
+    "fulfillmentScenario": "DOMESTIC#MARKETPLACE#NTFS",
+    "outBizCode": "LB2120048200000000000000001406275",
+    "packageCreateTime": 1628076730256,
+    "sellerId": "900002",
+    "toAddressId": "R80300249",
+    "toDetailAddress": "40, Hudson Road",
+    "trackingNumber": "LK-DEX-004551284",
+    "unitCode": "FU2120048200000000000000001384211",
+    "warehouseCode": "dropshipping"
+  },
+  "packageDTO": {
+    "currency": "LKR",
+    "height": 10.0,
+    "length": 10.0,
+    "price": 500.0,
+    "weight": 10000.0,
+    "width": 10.0
+  },
+  "reRouteDTO": {
+    "operateTime": 1628076730256
+  },
+  "routeOptionDTO": {
+    "businessTypes": [],
+    "deliveryOption": "standard",
+    "deliveryShippingProviderCode": "ef2f6807-20be-488f-af94-406adbcf7b2f",
+    "extraServices": [
+      "COD"
+    ],
+    "pickupShippingProviderCode": "ef2f6807-20be-488f-af94-406adbcf7b2f"
+  }
+}

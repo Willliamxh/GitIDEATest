@@ -1,0 +1,79 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "currency": "PHP",
+    "customerOrderCreationTime": "2021-08-02T11:15:02-07:00",
+    "deliveryOption": "standard",
+    "destinationAddress": {
+      "address": "San Antonio-Makati-Metro Manila, Metro Manila~Makati, Makati City, San Antonio",
+      "addressId": "R80183293",
+      "details": "San Antonio-Makati-Metro Manila",
+      "email": "phproductuat3@mailinator.com",
+      "name": "GMA-E Test",
+      "phone": "09175435807"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "500046747500",
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 10.0,
+        "itemCategory": "24011",
+        "length": 30.0,
+        "name": "CB Test 21kg",
+        "paidPrice": 463.0,
+        "platformItemId": "FO087611628179898",
+        "properties": {
+          "@type": "java.util.HashMap",
+          "isSellerCB": "true",
+          "buyerId": "500046747500"
+        },
+        "quantity": 1,
+        "sellerId": "100100535",
+        "sellerShortCode": "PH1XOOPA",
+        "sku": "822998878_PH-2546562172",
+        "unitPrice": 1.0,
+        "voucher": 0.0,
+        "weight": 21000.0,
+        "width": 30.0
+      }
+    ],
+    "logisticCategories": [
+      "LC_20007131"
+    ],
+    "originAddress": {
+      "address": "Test,Agusan Del Sur,Esperanza,Anolingan",
+      "addressId": "R80186464",
+      "details": "Test",
+      "email": "193@test.com",
+      "name": "Testing193",
+      "phone": "639171234567"
+    },
+    "packagePlanDTO": {
+      "lastMile": {
+        "shippingProviderCode": "c8b9dc16-0657-48a7-9816-4d60a9571175",
+        "trackingNumber": "MP0151434318"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "COD",
+    "platformName": "LAZADA_PH",
+    "platformOrderCreationTime": "2021-08-02T11:15:06-07:00",
+    "platformOrderId": "FO087611369939054",
+    "platformOrderNumber": "408678972147500",
+    "platformPromiseMaxTime": "2021-08-11T08:59:00-07:00",
+    "platformPromiseMinTime": "2021-08-07T08:59:00-07:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "cbSortCode": "LEX PH",
+      "packageDeliveryPriority": "NORMAL",
+      "shippingFee": "46200",
+      "addressMd5": "0adc17f6-2e5b-790f-26ec-6ed57ee8ff62",
+      "customerOrderCreationTime": "2021-08-02T11:15:02-07:00",
+      "packageAmount": "1"
+    },
+    "shippingType": "Marketplace",
+    "warehouseCode": "dropshipping"
+  }
+]

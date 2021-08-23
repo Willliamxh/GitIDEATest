@@ -1,0 +1,89 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "businessFlow": "0",
+    "currency": "SGD",
+    "customerOrderCreationTime": "2021-08-04T08:34:07-07:00",
+    "deliveryOption": "standard",
+    "destinationAddress": {
+      "address": "Singapore, Singapore, 61 MARINE DRIVE, 02-82",
+      "addressId": "R80130119",
+      "details": "02-82",
+      "email": "mira_evangelista@yahoo.com",
+      "geocodingDTO": {
+        "latitude": 1.303088,
+        "longitude": 103.908752
+      },
+      "name": "M Evangelista",
+      "phone": "98367143",
+      "type": "home"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "130317",
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 3.0,
+        "itemCategory": "10100635",
+        "length": 65.0,
+        "name": "★LocalStock★ Pee Tray Pee Mat Pee pad pee tray for dog pee tray large pee tray Medium size Plastic Dog Training Pads Tray Toilet Mat Potty Pad Puppy Tray Toilet Training Urinary Trainer Pee Mat",
+        "paidPrice": 21.39,
+        "platformItemId": "FO026911191127411",
+        "properties": {
+          "@type": "java.util.HashMap",
+          "isSellerCB": "false",
+          "buyerId": "130317"
+        },
+        "quantity": 1,
+        "sellerId": "1134099152",
+        "sellerShortCode": "SGLLRA7X",
+        "sku": "689816817_SGAMZ-2128320130",
+        "unitPrice": 19.9,
+        "voucher": 0.0,
+        "weight": 700.0,
+        "width": 48.0
+      }
+    ],
+    "originAddress": {
+      "address": "#09-35,Singapore,75  Yishun  Sembawang,280 WOODLANDS INDUSTRIAL PARK E5",
+      "addressId": "R80087877",
+      "details": "#09-35",
+      "email": "angelaho2019@gmail.com",
+      "name": "MQlittleshop",
+      "phone": "82085555"
+    },
+    "packagePlanDTO": {
+      "domesticFirstMile": {
+        "requirePickupType": "Drop-off",
+        "shippingProviderCode": "0e2b7f50-2124-481f-b1c3-d1db0875f175"
+      },
+      "lastMile": {
+        "shippingProviderCode": "0e2b7f50-2124-481f-b1c3-d1db0875f175",
+        "trackingNumber": "NLSGD17996318_Test1"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "PAYMENT_ACCOUNT",
+    "platformName": "LAZADA_SG",
+    "platformOrderCreationTime": "2021-08-04T08:34:12-07:00",
+    "platformOrderId": "FO026911051894616_Test1",
+    "platformOrderNumber": "57828646830317",
+    "platformPromiseMaxTime": "2021-08-09T03:00:00-07:00",
+    "platformPromiseMinTime": "2021-08-06T03:00:00-07:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "cbSortCode": "NinjaVan",
+      "packageDeliveryPriority": "NORMAL",
+      "shippingFee": "149",
+      "addressMd5": "b62e633a-9775-7771-fd37-654a729f4170",
+      "deliveryStartTime": "1628130881000",
+      "customerOrderCreationTime": "2021-08-04T08:34:07-07:00",
+      "businessFlow": "0",
+      "packageAmount": "1"
+    },
+    "shippingType": "Marketplace",
+    "solutionId": "US1686040668&a2acf12c03cc45950f3bdfe44faff050#-100#1",
+    "warehouseCode": "dropshipping"
+  }
+]

@@ -1,23 +1,88 @@
-{
-  "data": {
-    "features": {
-      "COMPONENT_RESULT_SPS": "null",
-      "INIT_OVERWRITE": "[]",
-      "FM_SC": "LAZADA_STANDARD_ID",
-      "DEFAULT_STEPS": "[{\"defaultType\":\"DEFAULT\",\"scene\":\"NO_DELIVERY_3PL_LANES\",\"subScene\":[\"23d7661c-dc67-44af-a6e3-308405ba5113\"]}]",
-      "COMPONENT_RESULT_COUNT": "null"
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "businessFlow": "NORMAL",
+    "currency": "THB",
+    "customerOrderCreationTime": "2021-01-05T18:59:44+07:00",
+    "deliveryOption": "standard",
+    "destinationAddress": {
+      "address": "รพ.สามเงา ต.สามเงา อ.สามเงา จ.ตาก, 63130, สามเงา/ Sam Ngao, ตาก/ Tak",
+      "addressId": "R1531",
+      "details": "รพ.สามเงา ต.สามเงา อ.สามเงา จ.ตาก, 63130, สามเงา/ Sam Ngao, ตาก/ Tak",
+      "email": "TESTTESTTESTjdarkrub@qq.com",
+      "name": "TESTTESTTESTละมูล คำมาฟุ่น",
+      "phone": "(999)(999)(999)0861326341",
+      "type": ""
     },
-    "deliveryTenantId": "LAZADA_ID",
-    "planType": 0,
-    "deliveryShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac",
-    "pickupTenantId": "LAZADA_ID",
-    "planId": "DEFAULT_SHIPPING_PROVIDER_PLAN_ID#-1#1",
-    "pickupType": "Drop-off",
-    "class": "com.cainiao.global.lnp.lsr.api.route.response.RoutePlanResultDTO",
-    "pickupShippingProviderCode": "4cfdfb11-4467-482c-b7a3-bb51efd243ac"
-  },
-  "success": true,
-  "errorMessage": "CODE: null, MESSAGE: null",
-  "needRetry": false,
-  "class": "com.cainiao.global.lnp.lsr.api.common.ResultDTO"
-}
+    "directReturnToMerchant": false,
+    "fulfillmentCompletionTime": "null",
+    "itemList": [
+      {
+        "buyerId": "100053567509",
+        "deliveryPriority": false,
+        "fulfillmentType": "retail",
+        "height": 8.0D,
+        "importDuty": 0.0D,
+        "incomeTax": 0.0D,
+        "itemCategory": "6068",
+        "length": 40.0D,
+        "name": "โฟร์โมสต์ โอเมก้า โยเกิร์ตพร้อมดื่ม ไขมันต่ำ ยูเอชที Foremost Omega รสผลไม้รวม 85 มล. - ขายยกลัง! (x2 ลัง) รวม 96 กล่อง",
+        "paidPrice": 380.0D,
+        "platformItemId": "IFOITEMTH1128580482",
+        "platformTag": "lazmall",
+        "platformTags": [
+          "lazmall"
+        ],
+        "properties": {
+          "@type": "java.util.HashMap",
+          "testTag": "9"
+        },
+        "quantity": 1,
+        "sellerDiscount": 0.0D,
+        "sellerId": "999999990000",
+        "sellerShortCode": "THTEST1",
+        "shippingFee": 0.0D,
+        "sku": "1480074789LAZADA_TH1384893565",
+        "unitPrice": 380.0D,
+        "vat": 0.0D,
+        "weight": 9373.0D,
+        "width": 23.0D
+      }
+    ],
+    "originAddress": {
+      "address": "Lazada (ทีพาร์ค บางพลี 3) 172/1 หมู่ 9 บางปลา",
+      "addressId": "R1470",
+      "details": "Lazada (ทีพาร์ค บางพลี 3) 172/1 หมู่ 9 บางปลา",
+      "email": "TESTTESTTESTservice@gmail.com",
+      "name": "TESTTESTTESTDefault TH Warehouse",
+      "phone": "(999)(999)(999)020180000"
+    },
+    "originType": "Domestic",
+    "packagePlanDTO": {
+      "domesticFirstMile": {
+        "requirePickupType": "Pickup",
+        "shippingProviderCode": "b92641cd-fff2-46f2-ade7-b3ee9d6f7779"
+      },
+      "lastMile": {
+        "shippingProviderCode": "b92641cd-fff2-46f2-ade7-b3ee9d6f7779",
+        "trackingNumber": "TESTTH1853322634"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "MIXEDCARD",
+    "platformName": "LAZADA_TH",
+    "platformOrderCreationTime": "2021-01-05T18:59:51+07:00",
+    "platformOrderId": "IWANTFOTH11532319574",
+    "platformOrderNumber": "IWANTTOTH11198799100",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "addressMd5": "ac200dfb-d343-48dc-eeab-4d8e6f2cf639",
+      "sampleCode": "FU2220052400000000000001503380049",
+      "ldmTest": "1",
+      "testTag": "9"
+    },
+    "shippingType": "warehouse",
+    "solutionId": "US1665969234&acbbefe982afe191ee9cb633fa7c79df#-100#0",
+    "warehouseCode": "OMS-LAZADA-TH-W-1"
+  }
+]

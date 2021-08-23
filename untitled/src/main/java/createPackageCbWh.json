@@ -1,0 +1,94 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "businessFlow": "NORMAL",
+    "currency": "SGD",
+    "customerOrderCreationTime": "2021-08-01T21:05:00+08:00",
+    "deliveryOption": "economy",
+    "destinationAddress": {
+      "address": "Singapore, Singapore, 322B SUMANG WALK, #12-889",
+      "addressId": "R80020619",
+      "details": "Singapore, Singapore, 322B SUMANG WALK, #12-889",
+      "email": "jolimhk@yahoo.com",
+      "geocodingDTO": {
+        "latitude": 1.410916,
+        "longitude": 103.896887
+      },
+      "name": "Josephine",
+      "phone": "94244695",
+      "type": "home"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "1015476015",
+        "deliveryPriority": false,
+        "fulfillmentType": "fbl",
+        "height": 5.0,
+        "importDuty": 0.0,
+        "incomeTax": 0.0,
+        "itemCategory": "10100739",
+        "length": 25.0,
+        "name": "Electric Callus Remover, Foot Grinder Rechargeable Foot File Hard Skin Remover Pedicure Tools for Feet Electronic Callus Shaver Portable Waterproof Pedicure kit for Cracked Heels and Dead Skin Foot Ca",
+        "paidPrice": 13.97,
+        "platformItemId": "FO081511188690749",
+        "properties": {
+          "@type": "java.util.HashMap",
+          "isSellerCB": "true"
+        },
+        "quantity": 1,
+        "sellerDiscount": 0.0,
+        "sellerId": "1137300057",
+        "sellerShortCode": "SGLNVY7C",
+        "shippingFee": 0.0,
+        "sku": "1424004638_SGAMZ-6487584906",
+        "unitPrice": 13.99,
+        "vat": 0.0,
+        "weight": 243.0,
+        "width": 12.0
+      }
+    ],
+    "originAddress": {
+      "address": "Subic Special Economic and Freeport Zone",
+      "addressId": "440305",
+      "details": "Subic Special Economic and Freeport Zone",
+      "email": "fww-wb474360@alibaba-inc.com",
+      "geocodingDTO": {
+        "latitude": 14.87756,
+        "longitude": 120.23494
+      },
+      "name": "Lel-Cross Border-Shenzhen-Fulfill-PH-2",
+      "phone": "02 795 8900"
+    },
+    "packagePlanDTO": {
+      "domesticFirstMile": {
+        "requirePickupType": "Pickup",
+        "shippingProviderCode": "0776c33f-ccb7-4421-9573-4af0c50fe0e3"
+      },
+      "lastMile": {
+        "shippingProviderCode": "0776c33f-ccb7-4421-9573-4af0c50fe0e3",
+        "trackingNumber": "LGFSG000120261_Test1"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "MIXEDCARD",
+    "platformName": "LAZADA_SG",
+    "platformOrderCreationTime": "2021-08-01T21:05:04+08:00",
+    "platformOrderId": "FO081511051833473_Test1",
+    "platformOrderNumber": "58211988976015",
+    "platformPromiseMaxTime": "2021-08-20T21:00:00+08:00",
+    "platformPromiseMinTime": "2021-08-13T21:00:00+08:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "packageHeight": "5.0",
+      "addressMd5": "178cced7-d43c-e0e5-643e-6ba5051048a5",
+      "packageWeight": "252",
+      "packageLength": "19.0",
+      "packageWidth": "15.0",
+      "packageAmount": "1"
+    },
+    "shippingType": "warehouse",
+    "solutionId": "US1678905332&DEFAULT_SHIPPING_PROVIDER_PLAN_ID#-1#0",
+    "warehouseCode": "OMS-LAZADA-PH-SZ-102"
+  }
+]

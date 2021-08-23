@@ -1,0 +1,19 @@
+CODE: COMPONENT_VALIDATOR_EXCEPTION, MESSAGE: component validator exception, DETAIL: DefaultRoutePlanProcessFlowRunner|execute, run RouteException, routeModel:LAZADA_CONSIGN, outBizCode:LB2120004800000000000000001406273, errorCode:LNP-LSR-B-A051-E, errorMsg:CODE: COMPONENT_VALIDATOR_EXCEPTION, MESSAGE: component validator exception, DETAIL: route start time can not be null in consign scenaro.
+
+
+
+ResultDTO(success=false, errorCode=lnp_ldm-access#sys-sysError-E, subErrorCode=null, errorMsg=System exception occurred, e=com.taobao.hsf.exception.HSFServiceAddressNotFoundException: HSFServiceAddressNotFoundException-
+error message : [HSF-Consumer] can't find target service addresses, target serviceName:com.cainiao.global.lnp.oms.common.api.OmsOrderWriteService:1.0.0.DAILY Group:HSF ERR-CODE: [HSF-0001], Type: [BIZ], More: [http://console.taobao.net/help/HSF-0001]
+	at com.taobao.hsf.registry.RegistryInvocationHandler.invoke(RegistryInvocationHandler.java:157)
+	at com.taobao.hsf.invocation.DelegateInvocationHandler.invoke(DelegateInvocationHandler.java:12)
+	at com.taobao.hsf.remoting.service.LocalInvocationHandler.invoke(LocalInvocationHandler.java:101)
+	at com.taobao.hsf.filter.FilterInvocationHandler.invoke(FilterInvocationHandler.java:38)
+	at com.taobao.hsf.invocation.filter.RPCFilterBuilder$TailNode.invoke(RPCFilterBuilder.java:165)
+	at com.alibaba.global.satellite.filter.SatelliteHSFClientFilter.invoke(SatelliteHSFClientFilter.java:82)
+, subErrorMsg=null, data=null, workFlowId=null, retry=true)
+
+
+
+
+
+ResultDTO(success=false, errorCode=lnp_ldm-access#biz-queryLsrRouteError-E, subErrorCode=A051, errorMsg=NotRetry, routePlan error, req={"features":{"paidPriceCurrency":"SGD","originType":"Domestic","shippingType":"marketplace","isSellerCB":"false","platformOrderId":"OF1628129761912","packageType":"Sales_order","fulfillmentType":"MP","paymentType":"PAYMENT_ACCOUNT","paidPrice":"21.39"},"orderDTO":{"fromAddressId":"R80087877","fromDetailAddress":"#09-35","fulfillmentScenario":"DOMESTIC#MARKETPLACE#RTS","outBizCode":"LB2120067000000000000000001382065","packageCreateTime":1628129803664,"sellerId":"1134099152","toAddressId":"R80130119","toDetailAddress":"02-82","trackingNumber":"NLSGD17996318_Test1","unitCode":"FU2120067000000000000000001698067","warehouseCode":"dropshipping"},"packageDTO":{"currency":"SGD","height":3.0,"length":65.0,"price":19.9,"weight":700.0,"width":48.0},"reRouteDTO":{"operateTime":1628130881000},"routeOptionDTO":{"businessTypes":["NORMAL"],"deliveryOption":"standard","deliveryShippingProviderCode":"0e2b7f50-2124-481f-b1c3-d1db0875f175","extraServices":["PAYMENT_ACCOUNT"],"pickupShippingProviderCode":"0e2b7f50-2124-481f-b1c3-d1db0875f175","pickupType":"Drop-off"}}, subErrorMsg=CODE: COMPONENT_VALIDATOR_EXCEPTION, MESSAGE: component validator exception, DETAIL: DefaultRoutePlanProcessFlowRunner|execute, run RouteException, routeModel:LAZADA_RTS, outBizCode:LB2120067000000000000000001382065, errorCode:LNP-LSR-B-A051-E, errorMsg:CODE: COMPONENT_VALIDATOR_EXCEPTION, MESSAGE: component validator exception, DETAIL: scheduleCode can not be null in rts scenario., data=null, workFlowId=null, retry=false)

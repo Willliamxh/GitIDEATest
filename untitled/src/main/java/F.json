@@ -1,0 +1,49 @@
+{
+  "features": {
+    "paidPriceCurrency": "SGD",
+    "originType": "Domestic",
+    "shippingType": "marketplace",
+    "isSellerCB": "false",
+    "platformOrderId": "OF1628129761912",
+    "packageType": "Sales_order",
+    "fulfillmentType": "MP",
+    "paymentType": "PAYMENT_ACCOUNT",
+    "paidPrice": "21.39"
+  },
+  "orderDTO": {
+    "fromAddressId": "R80087877",
+    "fromDetailAddress": "#09-35",
+    "fulfillmentScenario": "DOMESTIC#MARKETPLACE#RTS",
+    "outBizCode": "LB2120067000000000000000001382065",
+    "packageCreateTime": 1628129803664,
+    "sellerId": "1134099152",
+    "toAddressId": "R80130119",
+    "toDetailAddress": "02-82",
+    "trackingNumber": "NLSGD17996318_Test1",
+    "unitCode": "FU2120067000000000000000001698067",
+    "warehouseCode": "dropshipping"
+  },
+  "packageDTO": {
+    "currency": "SGD",
+    "height": 3.0,
+    "length": 65.0,
+    "price": 19.9,
+    "weight": 700.0,
+    "width": 48.0
+  },
+  "reRouteDTO": {
+    "operateTime": 1628130881000
+  },
+  "routeOptionDTO": {
+    "businessTypes": [
+      "NORMAL"
+    ],
+    "deliveryOption": "standard",
+    "deliveryShippingProviderCode": "0e2b7f50-2124-481f-b1c3-d1db0875f175",
+    "extraServices": [
+      "PAYMENT_ACCOUNT"
+    ],
+    "pickupShippingProviderCode": "0e2b7f50-2124-481f-b1c3-d1db0875f175",
+    "pickupType": "Drop-off"
+  }
+}

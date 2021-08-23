@@ -1,0 +1,81 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "currency": "SGD",
+    "customerOrderCreationTime": "2021-07-31T22:33:38-07:00",
+    "deliveryOption": "economy",
+    "destinationAddress": {
+      "address": "Singapore, Singapore, 644 YISHUN STREET 61, 13-296",
+      "addressId": "R80100920",
+      "details": "13-296",
+      "email": "pear-line@hotmail.com",
+      "geocodingDTO": {
+        "latitude": 1.421708,
+        "longitude": 103.837474
+      },
+      "name": "Pearline Ng",
+      "phone": "97513449",
+      "type": "home"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "1003418206",
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 1.0,
+        "itemCategory": "10000898",
+        "length": 1.0,
+        "name": "YOZO 50PCS/100PCS 4 Ply KF94 Washable Korean Version FaceMask Washable pm2.5 Reusable Protective White Face Shields Unisex 50PCS KF94 MaskFace 4 ply Protection Korean Version KN 955 Washable WhiteMask Reusable Protection",
+        "paidPrice": 12.16,
+        "platformItemId": "FO060611188500677",
+        "properties": {
+          "@type": "java.util.HashMap",
+          "isSellerCB": "true",
+          "buyerId": "1003418206"
+        },
+        "quantity": 1,
+        "sellerId": "100076132",
+        "sellerShortCode": "SG1XO4T2",
+        "sku": "1738456649_SGAMZ-8690344079",
+        "unitPrice": 12.8,
+        "voucher": 0.64,
+        "weight": 500.0,
+        "width": 1.0
+      }
+    ],
+    "originAddress": {
+      "address": "福建省泉州市晋江市陈埭镇洋埭村中兴路10号2楼202众齐网络售后部(明媚高频这栋),China",
+      "addressId": "R270056",
+      "details": "福建省泉州市晋江市陈埭镇洋埭村中兴路10号2楼202众齐网络售后部(明媚高频这栋)",
+      "email": "3127764240@qq.com",
+      "name": "YOZO Official Store",
+      "phone": "18759974264"
+    },
+    "packagePlanDTO": {
+      "lastMile": {
+        "shippingProviderCode": "0776c33f-ccb7-4421-9573-4af0c50fe0e3",
+        "trackingNumber": "LXBSG000013135017"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "MIXEDCARD",
+    "platformName": "LAZADA_SG",
+    "platformOrderCreationTime": "2021-07-31T22:34:02-07:00",
+    "platformOrderId": "FO060611051368215",
+    "platformOrderNumber": "58206372418206",
+    "platformPromiseMaxTime": "2021-08-18T08:59:00-07:00",
+    "platformPromiseMinTime": "2021-08-11T08:59:00-07:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "cbSortCode": "LGS-FM48",
+      "packageDeliveryPriority": "NORMAL",
+      "shippingFee": "0",
+      "addressMd5": "bd71afee-22e7-cc9a-a2ee-ddcbb5776fb6",
+      "customerOrderCreationTime": "2021-07-31T22:33:38-07:00",
+      "packageAmount": "1"
+    },
+    "shippingType": "Marketplace",
+    "warehouseCode": "dropshipping"
+  }
+]

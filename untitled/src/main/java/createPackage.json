@@ -1,0 +1,70 @@
+[
+  {
+    "@type": "com.cainiao.global.lnp.oms.access.common.model.request.CreatePackageRequestDTO",
+    "currency": "LKR",
+    "customerOrderCreationTime": "2021-08-03T00:50:48-07:00",
+    "deliveryOption": "standard",
+    "destinationAddress": {
+      "address": "Western, Colombo (1 - 15), Colombo 03 - Kollupitiya, 40, Hudson Road",
+      "addressId": "R80300249",
+      "details": "40, Hudson Road",
+      "email": "richwain3@gmail.com",
+      "name": "Richard Wain",
+      "phone": "773507934",
+      "type": "work"
+    },
+    "directReturnToMerchant": false,
+    "itemList": [
+      {
+        "buyerId": "1000007421996",
+        "deliveryPriority": false,
+        "fulfillmentType": "MP",
+        "height": 10.0,
+        "itemCategory": "202",
+        "length": 10.0,
+        "name": "TESt Vivo Y1s",
+        "paidPrice": 500.0,
+        "platformItemId": "FO004411011656172",
+        "quantity": 1,
+        "sellerId": "900002",
+        "sellerShortCode": "LK1KZOC",
+        "sku": "116088405_LK-1028708663",
+        "unitPrice": 500.0,
+        "voucher": 0.0,
+        "weight": 10000.0,
+        "width": 10.0
+      }
+    ],
+    "originAddress": {
+      "address": "Sri Lanka,Central,Kandy,Atabage",
+      "addressId": "R80317457",
+      "details": "Sri Lanka",
+      "email": "stresstest272@sglivetest.com",
+      "name": "Stress Test 272 Seller",
+      "phone": ""
+    },
+    "packagePlanDTO": {
+      "lastMile": {
+        "shippingProviderCode": "ef2f6807-20be-488f-af94-406adbcf7b2f",
+        "trackingNumber": "LK-DEX-004551284"
+      }
+    },
+    "packageType": "Sales_order",
+    "paymentType": "COD",
+    "platformName": "DARAZ_LK",
+    "platformOrderCreationTime": "2021-08-03T00:51:01-07:00",
+    "platformOrderId": "FO004411009244185_Test",
+    "platformOrderNumber": "204355607221996",
+    "platformPromiseMaxTime": "2021-08-09T05:30:00-07:00",
+    "platformPromiseMinTime": "2021-08-08T05:30:00-07:00",
+    "properties": {
+      "@type": "java.util.HashMap",
+      "packageDeliveryPriority": "NORMAL",
+      "shippingFee": "60900",
+      "addressMd5": "32f3389d-b4c1-f440-c67a-0a1652c20983",
+      "customerOrderCreationTime": "2021-08-03T00:50:48-07:00"
+    },
+    "shippingType": "Marketplace",
+    "warehouseCode": "dropshipping"
+  }
+]
