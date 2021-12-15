@@ -1,3 +1,3 @@
 # GitIDEATest
 测试idea的git使用
-test分支的测试2
+test分支和test3分支合并的测试
